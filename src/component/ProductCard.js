@@ -2,7 +2,6 @@ import { useState } from "react";
 
 const ProductCard = props => {
   const [likes, setLikes] = useState(0);
-  const [bought, setBought] = useState(false);
 
   const onLikeClick = () => {
     setLikes(likes + 1);
